@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  color: rgba(243,196,244,0.81);
+  padding: 140px;
+  font-family: serif;
+}
+
+@media (min-width: 1200px) {
+  #hero {
+    background: url("../../assets/img/game.jpg");
+  }
+}
+
