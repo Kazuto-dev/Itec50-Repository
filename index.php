@@ -28,12 +28,14 @@
         <div class="container">
             <h1>BSIT-1C Cloud</h1>
         </div>
-        <form method="post">
+        <form action="login.php" method="post">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><i class="icon ion-android-person"></i></div>
-            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-            <div class="form-group"><a href="#"><a class="btn btn-primary btn-block" role="button" href="untitled.html">Log In</a></a><a class="btn btn-primary btn-block" role="button" href="untitled-1.html">Sign Up</a></div><a class="forgot" style="opacity: 0.68;filter: saturate(0%);" href="untitled-1.html">Forgot your email or password?</a>
+            <label>Email :</label>
+            <div class="form-group"> <input class="form-control" id="email" type="email" name="email" placeholder="Email"></div>
+            <label>Password :</label>
+            <div class="form-group"><input class="form-control" id="password" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><input type="submit" name="Submit" class="btn btn-primary btn-block"></div><a class="forgot" style="opacity: 0.68;filter: saturate(0%);" href="untitled-1.html">Forgot your email or password?</a>
         </form>
     </div>
     <script src="assets/js/jquery.min.js"></script>
