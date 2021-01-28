@@ -8,14 +8,14 @@
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-Calendar.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css">
     <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team-Boxed.css">
@@ -24,8 +24,18 @@
 </head>
 
 <body style="height: 426pxz;background: url(&quot;assets/img/scenery.jpg&quot;) center / cover no-repeat;margin-top: 349px;">
-    <h1 style="padding: 23px;color: var(--dark);font-family: Acme, sans-serif;">ERROR 404</h1>
-    <h1 style="margin-bottom: 0px;padding: 1px;color: var(--dark);font-family: Acme, sans-serif;">NOT FOUND</h1><a class="btn btn-primary" role="button" data-bs-hover-animate="jello" style="margin-left: 915px;margin-top: 21px;background: #000000;" href="untitled.html">Go back</a>
+    <div class="newsletter-subscribe" style="background: rgba(0,0,0,0.52);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="background: rgba(255,255,255,0);filter: brightness(76%);color: #ffffff;">Submit your file</h2>
+                <p class="text-center" style="color: rgba(255,255,255,0.6);">You can now submit your activities by dragging your files here</p>
+            </div>
+            <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Drag Here"></div>
+                <div class="form-group"><button class="btn btn-primary" data-bs-hover-animate="jello" type="submit">Submit</button></div>
+            </form>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
